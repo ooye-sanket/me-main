@@ -1,4 +1,4 @@
-import React from 'react';
+
 import bhonga from "../media/13.svg";
 import money from "../media/14.svg";
 import rocket from "../media/12.svg";
@@ -42,9 +42,7 @@ const BlueStripDemo = () => {
         
       </div>
 
-      <style jsx>{
-        
-      }</style>
+      
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import "./App.css";
-import React from "react";
+
 import logo from "./media/me-mine-lg.svg";
 // Import your SVG icons
 import icon2 from "./media/2.svg";
