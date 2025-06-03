@@ -23,6 +23,10 @@ import certifiedBadge from "./media/certified.png";
 
 // Import the new BlueStrip component
 import BlueStrip from "./component/BlueStrip";
+import Work from "./component/work";
+import WorkStrip from "./component/workstrip";
+
+
 
 // Load Google Fonts
 const fontLink = document.createElement("link");
@@ -164,6 +168,8 @@ function App() {
 
       {/* Use the BlueStrip component */}
       <BlueStrip />
+      <Work />
+      <WorkStrip />
     </>
   );
 }

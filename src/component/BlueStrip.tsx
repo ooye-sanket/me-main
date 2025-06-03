@@ -3,7 +3,7 @@ import bhonga from "../media/13.svg";
 import money from "../media/14.svg";
 import rocket from "../media/12.svg";
 
-const BlueStripDemo = () => {
+const BlueStrip = () => {
   return (
     <div style={{ fontFamily: 'Inter, sans-serif' }}>
       {/* Your existing bio section would be here */}
@@ -47,4 +47,4 @@ const BlueStripDemo = () => {
   );
 };
 
-export default BlueStripDemo;
+export default BlueStrip;
