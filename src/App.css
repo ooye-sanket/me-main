@@ -783,6 +783,7 @@ html, body {
           display: flex;
           justify-content: center;
           align-items: center;
+          position: relative;
         }
 
         .stats-row {
@@ -791,7 +792,7 @@ html, body {
           align-items: center;
           gap: 40px;
           flex-wrap: wrap;
-          max-width: 1200px;
+          max-width: 10000px;
           width: 100%;
         }
 
@@ -803,7 +804,7 @@ html, body {
         }
 
         .stat-box h2 {
-          font-size: 48px;
+          font-size: 50px;
           font-weight: 900;
           margin: 0;
           color: white;
@@ -871,4 +872,43 @@ html, body {
           }
         }
 
+/* Blue strip specific floating icons */
+.blue-icon {
+  position: absolute;
+  z-index: 5;
+  pointer-events: none;
+  opacity: 0.6;
+  animation: float 10s ease-in-out infinite;
+}
 
+.blue-icon-1 {
+  top: -50px;
+  left: 30%;
+  width: 200px;
+  height: auto;
+  z-index: 10;
+  opacity: 1;
+}
+
+.blue-icon-2 {
+  top: 300px;
+  left: 5%;
+  width: 230px;
+  height: auto;
+  z-index: 10;
+  opacity: 1;
+}
+
+.blue-icon-3 {
+  bottom: 65%;
+  left: 87%;
+  width: 150px;
+  height: auto;
+  opacity: 1;
+}
+
+@media (max-width: 767px) {
+  .blue-icon {
+    display: none;
+  }
+}

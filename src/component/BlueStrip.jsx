@@ -1,4 +1,7 @@
 import React from 'react';
+import bhonga from "../media/13.svg";
+import money from "../media/14.svg";
+import rocket from "../media/12.svg";
 
 const BlueStripDemo = () => {
   return (
@@ -15,6 +18,11 @@ const BlueStripDemo = () => {
       {/* The problematic section - FIXED */}
       <div className="full-white-section">
         <div className="clean-blue-strip">
+          <img src={rocket} alt="icon12" className="floating-icon blue-icon blue-icon-1" />
+          <img src={bhonga} alt="icon13" className="floating-icon blue-icon blue-icon-2" />
+          <img src={money} alt="icon14" className="floating-icon blue-icon blue-icon-3" />
+
+          
           <div className="stats-row">
             <div className="stat-box">
               <h2>50+</h2>
@@ -31,9 +39,7 @@ const BlueStripDemo = () => {
           </div>
         </div>
         
-        <div className="workbrands">
-          <h2>Some brands I have worked with</h2>
-        </div>
+        
       </div>
 
       <style jsx>{

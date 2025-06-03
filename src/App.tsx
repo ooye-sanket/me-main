@@ -20,6 +20,7 @@ import icon16 from "./media/GAnaltyics.png";
 import mepic from "./media/mepic.jpg";
 import certifiedBadge from "./media/certified.png";
 
+
 // Import the new BlueStrip component
 import BlueStrip from "./component/BlueStrip";
 
