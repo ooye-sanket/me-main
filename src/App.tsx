@@ -25,6 +25,7 @@ import certifiedBadge from "./media/certified.png";
 import BlueStrip from "./component/BlueStrip";
 import Work from "./component/work";
 import WorkStrip from "./component/workstrip";
+import Result from "./component/result";
 
 
 
@@ -170,6 +171,7 @@ function App() {
       <BlueStrip />
       <Work />
       <WorkStrip />
+      <Result />
     </>
   );
 }
