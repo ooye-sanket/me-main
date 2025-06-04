@@ -1,8 +1,12 @@
-import React from 'react';
+
+
+import graphImg from "../media/result-anylt.png";
+import tableImg from "../media/result-anylt2.png";
 
 const ClientResults = () => {
   return (
     <div className="client-results-container">
+      <div className="gradient-bg"></div>
       <div className="client-results-wrapper">
         {/* Header */}
         <div className="client-results-header">
@@ -16,6 +20,10 @@ const ClientResults = () => {
         </div>
 
         {/* Main Content Grid */}
+        <div className="analytics-images">
+          <img src={graphImg} alt="Analytics Graph" className="analytic-img" />
+          <img src={tableImg} alt="Analytics Table" className="analytic1-img" />
+        </div>
         
       </div>
     </div>
