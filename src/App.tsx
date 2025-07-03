@@ -26,6 +26,12 @@ import BlueStrip from "./component/BlueStrip";
 import Work from "./component/work";
 import WorkStrip from "./component/workstrip";
 import Result from "./component/result";
+import Feedback from "./component/clientsay";
+import Services from "./component/services";
+import Tools from "./component/tools";
+import Workplan from "./component/workplan";
+import Contact from "./component/getintouch";
+import Footer from "./component/footer";
 
 
 
@@ -172,8 +178,17 @@ function App() {
       <Work />
       <WorkStrip />
       <Result />
+      <Feedback />
+      <Services />
+      <Tools />
+      <Workplan />
+      <Contact />
+      <Footer />
+
+      {/* Footer Section */}
     </>
   );
 }
 
 export default App;
+
