@@ -31,7 +31,7 @@ import Services from "./component/services";
 import Tools from "./component/tools";
 import Workplan from "./component/workplan";
 import Contact from "./component/getintouch";
-import Footer from "./component/footer";
+// import Footer from "./component/footer";
 
 
 
@@ -183,7 +183,7 @@ function App() {
       <Tools />
       <Workplan />
       <Contact />
-      <Footer />
+      {/* <Footer /> */}
 
       {/* Footer Section */}
     </>
